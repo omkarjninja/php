@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>PDF Uploader</title>
+  </head>
+  <body>
+    <form action="process-form.php" method="post" enctype="multipart/form-data">
+      <label for="file">Select PDF to upload:</label>
+      <input type="file" name="file" id="file" accept="application/pdf">
+      <input type="submit" value="Upload PDF" name="submit">
+    </form>
+  </body>
+</html>
